@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  width: calc(100vw - 300px);
+  max-width: calc(100vw - 300px);
+}
+
+.canvas-container {
+  flex: 1;
+  height: 100vh;
+  width: calc(100vw - 300px);
+  max-width: 100%;
+}
+
+canvas {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.sidenav {
+  width: 300px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidenav h3 {
+  margin-top: 0;
+}
+
+.sidenav label {
+  display: block;
+  margin: 10px 0;
+}
+
+.sidenav input {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
